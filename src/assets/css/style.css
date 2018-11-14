@@ -17,13 +17,13 @@
     text-decoration: none;
 }
 
-.layout__header li {
-    float: left;
-    max-width: 33.3%;
-}
 
-.navbar a:hover {
-    background-color: #FFCCCC;
+.layout__body {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    /*grid-template-columns: 1fr 1fr 1fr; 建立一個3列的網格 */
+    /*grid-column-gap: 1px;               建立區隔網格的線    */
+    /*background-color: black;                           */
 }
 
 .left {
