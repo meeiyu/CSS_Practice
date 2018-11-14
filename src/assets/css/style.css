@@ -1,8 +1,13 @@
-.layout__header{
-    display: inline-block;
+.layout__header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
 }
 
-.layout__header-navbar li a {
+.layout__header li a {
+    display: block;
     float: left;
     font-size: 16px;
     background-color: #000000;
@@ -12,7 +17,7 @@
     text-decoration: none;
 }
 
-.layout__header-navbar li {
+.layout__header li {
     float: left;
     max-width: 33.3%;
 }
